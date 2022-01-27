@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Push</title>
   <script charset="UTF-8" src="//web.webpushs.com/js/push/72df21e34706c3bd58fd3409f1e305ed_1.js" async></script>
   <script type="text/javascript">
- 
-window.addEventListener('load', function() {
-  
-    oSpP.push("Name",Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 5));
-    oSpP.push("telephone",Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 5));
-    oSpP.push("Date",Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 5));
-});
-</script>
+    window.addEventListener('load', function() {
+      oSpP.push("Name","Имя_посетителя_сайта");
+      oSpP.push("Phone","Телефон_посетителя_сайта");
+      oSpP.push("Date","Дата_посетителя_сайта");
+    });
+  </script>
 </head>
 <body>
 
